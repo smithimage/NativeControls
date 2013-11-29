@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="ru.dextra.cordova.tabbar"
-      version="0.1.0">
+           id="NativeControls" version="0.1.0">
 
     <name>NativeControls</name>
     <description>Cordova NativeControls Plugin</description>
@@ -18,7 +17,7 @@
     		</feature>
        </config-file>
 
-        <js-module src="www/NativeControls.js" name="tabbar">
+        <js-module src="www/NativeControls.js" name="nativecontrols">
         </js-module>
 
         <header-file src="src/ios/NativeControls.h" />
