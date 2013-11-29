@@ -14,7 +14,7 @@
 #import <UIKit/UIKit.h>
 #import <UIKit/UITabBar.h>
 #import <UIKit/UIToolbar.h>	
-#import "CDVDeprecated.h"
+#import <Cordova/CDVPlugin.h>
 
 @interface NativeControls : CDVPlugin <UITabBarDelegate, UIActionSheetDelegate> {
 	UITabBar* tabBar;

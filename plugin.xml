@@ -20,8 +20,8 @@
         <js-module src="www/NativeControls.js" name="nativecontrols">
         </js-module>
 
-        <header-file src="src/ios/NativeControls.h" />
-        <source-file src="src/ios/NativeControls.m" />
+        <header-file src="src/ios/NativeControls.h" compiler-flags="-fno-objc-arc" />
+        <source-file src="src/ios/NativeControls.m" compiler-flags="-fno-objc-arc" />
 
     </platform>
 
